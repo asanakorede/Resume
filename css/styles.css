@@ -1,0 +1,9 @@
+div {
+  background-image: url(../img/pexels-photo-3184433.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+  font-size: x-large;
+  color: rgb(7, 7, 60);
+}
