@@ -1,14 +1,14 @@
 .nav-list {
     color: black;
-   display: flex;
-   padding-left: 30px;
+    display: flex;
+    padding-left: 30px;
 }
 
 .nav-list li {
     padding-right: 25px;
 }
 
-.nav-list a{
+.nav-list a {
     color: black;
     font-size: 20px;
 }
@@ -18,22 +18,22 @@
     list-style: none;
 }
 
-.nav-list{
+.nav-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-list li a{
+.nav-list li a {
     text-decoration: none;
 }
 
-.nav-list li a:hover{
+.nav-list li a:hover {
     text-decoration: underline;
     transition: 0.4s ease-in-out;
 }
 
-body{
+body {
     background-image: url(../img/bd.webp);
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,29 +41,47 @@ body{
     width: 80%;
 }
 
-.cta-text{
+.cta-text {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 200px;
 }
 
-.cta-text h1{
+.cta-text h1 {
     font-size: 50px;
     padding-left: 100px;
 }
 
-.text h2{
+.text h2 {
     padding-top: 30px;
     padding-left: 100px;
     color: blanchedalmond;
 }
 
-.cta-img img{
-    width: 300px;
-    padding-right: 35px;
+.cta-img img {
+    width: 400px;
+    
 }
 
-.text i{
+.text i {
     height: 40px;
 }
+
+button{
+    background-color: white;
+    margin-left: 100px;
+    border-radius: 20px;
+    border: 50px;
+    cursor: pointer;
+    padding: 15px 20px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+ button a{
+    text-decoration: none;
+ }
